@@ -1,0 +1,16 @@
+2024-08-02 14:44:41,792 DEBUG [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:28] -- Debug
+2024-08-02 14:44:41,795 INFO [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:29] -- Info
+2024-08-02 14:44:41,795 WARN [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:30] -- Warn
+2024-08-02 14:44:41,795 ERROR [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:31] -- Error
+2024-08-02 14:44:41,796 DEBUG [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:32] -- Opening file for writing Object
+2024-08-02 14:44:41,800 INFO [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:35] -- Creating Object
+2024-08-02 14:44:41,802 INFO [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:37] -- Writing Object ....
+2024-08-02 14:44:41,826 INFO [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:39] -- Object written to file -- Serialized
+2024-08-02 14:45:07,533 DEBUG [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:28] -- Debug
+2024-08-02 14:45:07,537 INFO [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:29] -- Info
+2024-08-02 14:45:07,537 WARN [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:30] -- Warn
+2024-08-02 14:45:07,537 ERROR [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:31] -- Error
+2024-08-02 14:45:07,537 DEBUG [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:32] -- Opening file for writing Object
+2024-08-02 14:45:07,539 INFO [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:35] -- Creating Object
+2024-08-02 14:45:07,541 INFO [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:37] -- Writing Object ....
+2024-08-02 14:45:07,567 INFO [main] c.r.f.s.EmployeeSerialize [EmployeeSerialize.java:39] -- Object written to file -- Serialized
