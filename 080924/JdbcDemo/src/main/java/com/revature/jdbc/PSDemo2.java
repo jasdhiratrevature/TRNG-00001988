@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import com.revature.jdbc.model.Contacts;
 import com.revature.jdbc.utils.DatabaseConnection;
 
 public class PSDemo2 {
@@ -13,6 +14,7 @@ public class PSDemo2 {
 		  DatabaseConnection databaseConnection = null;
 		  Connection connection=null;
 		  PreparedStatement preparedStatement=null;
+		  Contacts contactOne=null;
 		  String sql="select * from contacts where id=?";
 		try {
 			// Using Connection Util here
@@ -22,8 +24,12 @@ public class PSDemo2 {
 			  preparedStatement.setInt(1, 5);
 			  ResultSet resultSet=preparedStatement.executeQuery();
 			  while(resultSet.next()) {
-				  System.out.println("Id : "+resultSet.getInt(1)+
-						  " - Name : "+resultSet.getString(2));
+				 contactOne=new Contacts();
+				 contactOne.setId(resultSet.getInt(1));
+				 contactOne.setName(resultSet.getString(2));
+				 contactOne.setEmail(resultSet.getString(3));
+				 contactOne.setUserName(resultSet.getString(4));
+				 System.out.println(contactOne);
 			  }
 			  
 		} catch (SQLException e) {
