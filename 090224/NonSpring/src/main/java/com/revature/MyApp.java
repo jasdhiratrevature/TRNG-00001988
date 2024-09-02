@@ -19,5 +19,7 @@ public static void main(String[] args) {
 		BaseBallCoach bObj=	container.getBean("bCoach",BaseBallCoach.class);
 		
 		System.out.println(bObj.getDailyWorkout());
+		
+		container.close();
 }
 }

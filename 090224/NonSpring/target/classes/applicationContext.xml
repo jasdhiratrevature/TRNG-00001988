@@ -4,6 +4,12 @@
 
 <beans>
 
-<bean id="bCoach" class="com.revature.BaseBallCoach"></bean>
+<bean id="happy" class="com.revature.HappyFortuneService"></bean>
+
+<bean id="bCoach" class="com.revature.BaseBallCoach" scope="singleton">
+<!-- <constructor-arg ref="happy"></constructor-arg> -->
+<property name="happy" ref="happy"></property>
+</bean>
+
 
 </beans>
