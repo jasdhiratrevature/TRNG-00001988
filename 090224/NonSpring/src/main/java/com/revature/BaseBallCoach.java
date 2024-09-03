@@ -18,5 +18,12 @@ public class BaseBallCoach implements Coach{
 	public void setHappy(HappyFortuneService happy) {
 		this.happy = happy;
 	}
+	
+	public void doSomethingAtInit() {
+		System.out.println("Init method of bean.....");
+	}
 
+	public void someDestroy() {
+		System.out.println("Destroy ....");
+	}
 }

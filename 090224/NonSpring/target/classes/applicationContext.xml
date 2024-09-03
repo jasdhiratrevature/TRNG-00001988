@@ -6,7 +6,8 @@
 
 <bean id="happy" class="com.revature.HappyFortuneService"></bean>
 
-<bean id="bCoach" class="com.revature.BaseBallCoach" scope="singleton">
+<bean id="bCoach" class="com.revature.BaseBallCoach" 
+	init-method="doSomethingAtInit" destroy-method="someDestroy">
 <!-- <constructor-arg ref="happy"></constructor-arg> -->
 <property name="happy" ref="happy"></property>
 </bean>
