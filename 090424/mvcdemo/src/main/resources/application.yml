@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mvcdemo
+  mvc:
+    view:
+      prefix: /WEB-INF/myviews/
+      suffix: .jsp
+server:
+  port: 8081
