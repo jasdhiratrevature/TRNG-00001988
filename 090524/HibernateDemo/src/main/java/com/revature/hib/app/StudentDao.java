@@ -34,5 +34,15 @@ public List<Student> getAllStudents(){
 			}
 			return stuList;
 		}
+
+public Student getStudentById(int id){
+	Student stu;
+	try(Session session=HibernateUtil.getSessionFactory().openSession()){
+		//stu= session.get(Student.class, new Integer(id));
+		stu= session.get(Student.class, new Integer(id));
+	}
+	return stu;
+}
+
 }
 

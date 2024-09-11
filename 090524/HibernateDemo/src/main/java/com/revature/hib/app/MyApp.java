@@ -17,5 +17,7 @@ public static void main(String[] args) {
 	 * for(Student s:sList) System.out.println(s.getId() +"   "+s.getFirstName());
 	 */
 	sList.forEach(System.out::println);
+	
+	System.out.println(studentDao.getStudentById(2));
 }
 }
