@@ -1,0 +1,231 @@
+2024-09-11T21:39:08.143+05:30  INFO 7240 --- [SpringDataJPA] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-11T21:39:08.184+05:30  INFO 7240 --- [SpringDataJPA] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T21:39:08.184+05:30  INFO 7240 --- [SpringDataJPA] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-09-11T21:39:08.189+05:30  INFO 7240 --- [SpringDataJPA] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-09-11T21:39:08.265+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Starting SpringDataJpaApplication using Java 21.0.3 with PID 7240 (C:\2024Training\TRNG-00001988\091124\SpringDataJPA\target\classes started by JasdhirSingh in C:\2024Training\TRNG-00001988\091124\SpringDataJPA)
+2024-09-11T21:39:08.265+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T21:39:08.410+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11T21:39:08.419+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-09-11T21:39:08.488+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-11T21:39:08.489+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T21:39:08.489+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T21:39:08.515+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11T21:39:08.515+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 247 ms
+2024-09-11T21:39:08.545+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11T21:39:08.547+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-11T21:39:08.555+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11T21:39:08.556+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-09-11T21:39:08.567+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@772f4e1
+2024-09-11T21:39:08.568+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-09-11T21:39:08.595+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11T21:39:08.600+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T21:39:08.660+05:30  WARN 7240 --- [SpringDataJPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11T21:39:08.745+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11T21:39:08.755+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-11T21:39:08.758+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Started SpringDataJpaApplication in 0.52 seconds (process running for 680.821)
+2024-09-11T21:39:08.758+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-11T21:41:08.303+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11T21:41:08.303+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11T21:41:08.304+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-11T21:41:08.307+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] com.revature.aspect.LoggingAspect        : Before Execution of execution(List com.revature.controllers.EmployeeController.getEmployees())
+2024-09-11T21:41:12.278+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-2] com.revature.aspect.LoggingAspect        : Before Execution of execution(Optional com.revature.controllers.EmployeeController.getEmployeeById(int))
+2024-09-11T22:30:32.162+05:30  INFO 7240 --- [SpringDataJPA] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-11T22:30:32.183+05:30  INFO 7240 --- [SpringDataJPA] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:30:32.185+05:30  INFO 7240 --- [SpringDataJPA] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-09-11T22:30:32.188+05:30  INFO 7240 --- [SpringDataJPA] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-09-11T22:30:32.265+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Starting SpringDataJpaApplication using Java 21.0.3 with PID 7240 (C:\2024Training\TRNG-00001988\091124\SpringDataJPA\target\classes started by JasdhirSingh in C:\2024Training\TRNG-00001988\091124\SpringDataJPA)
+2024-09-11T22:30:32.270+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T22:30:32.456+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11T22:30:32.467+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2024-09-11T22:30:32.549+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-11T22:30:32.551+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T22:30:32.551+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T22:30:32.578+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11T22:30:32.578+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 305 ms
+2024-09-11T22:30:32.613+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11T22:30:32.616+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-11T22:30:32.623+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11T22:30:32.624+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-09-11T22:30:32.636+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5df0510c
+2024-09-11T22:30:32.636+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-09-11T22:30:32.663+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11T22:30:32.670+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:30:32.676+05:30  WARN 7240 --- [SpringDataJPA] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingAspect' defined in file [C:\2024Training\TRNG-00001988\091124\SpringDataJPA\target\classes\com\revature\aspect\LoggingAspect.class]: Failed to instantiate [com.revature.aspect.LoggingAspect]: Constructor threw exception
+2024-09-11T22:30:32.678+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:30:32.678+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-09-11T22:30:32.679+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-09-11T22:30:32.679+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-11T22:30:32.683+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-11T22:30:32.706+05:30 ERROR 7240 --- [SpringDataJPA] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingAspect' defined in file [C:\2024Training\TRNG-00001988\091124\SpringDataJPA\target\classes\com\revature\aspect\LoggingAspect.class]: Failed to instantiate [com.revature.aspect.LoggingAspect]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.3.jar:3.3.3]
+	at com.revature.SpringDataJpaApplication.main(SpringDataJpaApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.3.jar:3.3.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.revature.aspect.LoggingAspect]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:94) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1331) ~[spring-beans-6.1.12.jar:6.1.12]
+	... 20 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token ""execution(* com.revature.controllers.EmployeeController.get*(..))"", invalid MemberValuePairs
+
+	at com.revature.aspect.LoggingAspect.<init>(LoggingAspect.java:21) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195) ~[spring-beans-6.1.12.jar:6.1.12]
+	... 22 common frames omitted
+
+2024-09-11T22:31:06.960+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Starting SpringDataJpaApplication using Java 21.0.3 with PID 7240 (C:\2024Training\TRNG-00001988\091124\SpringDataJPA\target\classes started by JasdhirSingh in C:\2024Training\TRNG-00001988\091124\SpringDataJPA)
+2024-09-11T22:31:06.965+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T22:31:07.135+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11T22:31:07.143+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-09-11T22:31:07.201+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-11T22:31:07.202+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T22:31:07.202+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T22:31:07.225+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-11T22:31:07.225+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 258 ms
+2024-09-11T22:31:07.250+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11T22:31:07.252+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-11T22:31:07.259+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11T22:31:07.260+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-09-11T22:31:07.269+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@481fa5ad
+2024-09-11T22:31:07.269+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-09-11T22:31:07.298+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11T22:31:07.306+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:31:07.360+05:30  WARN 7240 --- [SpringDataJPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11T22:31:07.458+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11T22:31:07.469+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-11T22:31:07.471+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Started SpringDataJpaApplication in 0.535 seconds (process running for 3799.535)
+2024-09-11T22:31:07.472+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-11T22:31:34.560+05:30  INFO 7240 --- [SpringDataJPA] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-11T22:31:34.573+05:30  INFO 7240 --- [SpringDataJPA] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:31:34.574+05:30  INFO 7240 --- [SpringDataJPA] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-09-11T22:31:34.578+05:30  INFO 7240 --- [SpringDataJPA] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2024-09-11T22:31:34.653+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Starting SpringDataJpaApplication using Java 21.0.3 with PID 7240 (C:\2024Training\TRNG-00001988\091124\SpringDataJPA\target\classes started by JasdhirSingh in C:\2024Training\TRNG-00001988\091124\SpringDataJPA)
+2024-09-11T22:31:34.658+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T22:31:34.825+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11T22:31:34.834+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-09-11T22:31:34.903+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-11T22:31:34.904+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T22:31:34.904+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T22:31:34.936+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-11T22:31:34.936+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 275 ms
+2024-09-11T22:31:34.964+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11T22:31:34.967+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-11T22:31:34.974+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11T22:31:34.975+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2024-09-11T22:31:34.986+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29ea8d40
+2024-09-11T22:31:34.986+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2024-09-11T22:31:35.015+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11T22:31:35.023+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:31:35.082+05:30  WARN 7240 --- [SpringDataJPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11T22:31:35.167+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11T22:31:35.178+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-11T22:31:35.181+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Started SpringDataJpaApplication in 0.553 seconds (process running for 3827.244)
+2024-09-11T22:31:35.183+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-11T22:31:49.934+05:30  INFO 7240 --- [SpringDataJPA] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-11T22:31:49.946+05:30  INFO 7240 --- [SpringDataJPA] [Thread-38] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:31:49.946+05:30  INFO 7240 --- [SpringDataJPA] [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2024-09-11T22:31:49.951+05:30  INFO 7240 --- [SpringDataJPA] [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2024-09-11T22:31:50.034+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Starting SpringDataJpaApplication using Java 21.0.3 with PID 7240 (C:\2024Training\TRNG-00001988\091124\SpringDataJPA\target\classes started by JasdhirSingh in C:\2024Training\TRNG-00001988\091124\SpringDataJPA)
+2024-09-11T22:31:50.039+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T22:31:50.235+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11T22:31:50.245+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-09-11T22:31:50.315+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-11T22:31:50.316+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T22:31:50.316+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T22:31:50.341+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-11T22:31:50.341+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 299 ms
+2024-09-11T22:31:50.370+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11T22:31:50.373+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-11T22:31:50.380+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11T22:31:50.381+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2024-09-11T22:31:50.394+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65a6e37e
+2024-09-11T22:31:50.394+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2024-09-11T22:31:50.430+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11T22:31:50.437+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:31:50.489+05:30  WARN 7240 --- [SpringDataJPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11T22:31:50.580+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11T22:31:50.603+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-11T22:31:50.606+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Started SpringDataJpaApplication in 0.604 seconds (process running for 3842.669)
+2024-09-11T22:31:50.607+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-11T22:32:10.515+05:30  INFO 7240 --- [SpringDataJPA] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-11T22:32:10.527+05:30  INFO 7240 --- [SpringDataJPA] [Thread-42] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:32:10.528+05:30  INFO 7240 --- [SpringDataJPA] [Thread-42] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2024-09-11T22:32:10.531+05:30  INFO 7240 --- [SpringDataJPA] [Thread-42] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2024-09-11T22:32:10.624+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Starting SpringDataJpaApplication using Java 21.0.3 with PID 7240 (C:\2024Training\TRNG-00001988\091124\SpringDataJPA\target\classes started by JasdhirSingh in C:\2024Training\TRNG-00001988\091124\SpringDataJPA)
+2024-09-11T22:32:10.630+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T22:32:10.847+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11T22:32:10.856+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-09-11T22:32:10.941+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-11T22:32:10.942+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T22:32:10.942+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T22:32:10.971+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-11T22:32:10.971+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 338 ms
+2024-09-11T22:32:10.998+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11T22:32:11.001+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-11T22:32:11.008+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11T22:32:11.008+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2024-09-11T22:32:11.018+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fe0afc9
+2024-09-11T22:32:11.018+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2024-09-11T22:32:11.043+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11T22:32:11.050+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:32:11.103+05:30  WARN 7240 --- [SpringDataJPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11T22:32:11.183+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11T22:32:11.193+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-11T22:32:11.195+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Started SpringDataJpaApplication in 0.607 seconds (process running for 3863.258)
+2024-09-11T22:32:11.196+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-11T22:32:21.854+05:30  INFO 7240 --- [SpringDataJPA] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-11T22:32:21.865+05:30  INFO 7240 --- [SpringDataJPA] [Thread-46] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:32:21.865+05:30  INFO 7240 --- [SpringDataJPA] [Thread-46] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2024-09-11T22:32:21.869+05:30  INFO 7240 --- [SpringDataJPA] [Thread-46] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2024-09-11T22:32:21.944+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Starting SpringDataJpaApplication using Java 21.0.3 with PID 7240 (C:\2024Training\TRNG-00001988\091124\SpringDataJPA\target\classes started by JasdhirSingh in C:\2024Training\TRNG-00001988\091124\SpringDataJPA)
+2024-09-11T22:32:21.948+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T22:32:22.133+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11T22:32:22.142+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-09-11T22:32:22.209+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-11T22:32:22.210+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T22:32:22.210+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T22:32:22.239+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-11T22:32:22.239+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 288 ms
+2024-09-11T22:32:22.263+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11T22:32:22.266+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-11T22:32:22.272+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11T22:32:22.273+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2024-09-11T22:32:22.283+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection com.mysql.cj.jdbc.ConnectionImpl@432baf06
+2024-09-11T22:32:22.283+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2024-09-11T22:32:22.311+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11T22:32:22.317+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T22:32:22.367+05:30  WARN 7240 --- [SpringDataJPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11T22:32:22.480+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11T22:32:22.501+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-11T22:32:22.503+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Started SpringDataJpaApplication in 0.586 seconds (process running for 3874.566)
+2024-09-11T22:32:22.504+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-11T22:32:29.790+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11T22:32:29.790+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11T22:32:29.791+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-11T22:32:29.795+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] com.revature.aspect.LoggingAspect        : Before Execution of execution(Optional com.revature.controllers.EmployeeController.getEmployeeById(int))
+2024-09-11T22:32:29.806+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] com.revature.aspect.LoggingAspect        : Before Execution of execution(Optional com.revature.controllers.EmployeeController.getEmployeeById(int))
+2024-09-11T22:32:29.808+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] com.revature.aspect.LoggingAspect        : Optional[Employee [id=1, name=Jasdhir, salary=5000.0]]

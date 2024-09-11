@@ -1,0 +1,57 @@
+2024-09-11T21:32:48.243+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Starting SpringDataJpaApplication using Java 21.0.3 with PID 7240 (C:\2024Training\TRNG-00001988\091124\SpringDataJPA\target\classes started by JasdhirSingh in C:\2024Training\TRNG-00001988\091124\SpringDataJPA)
+2024-09-11T21:32:48.245+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T21:32:48.427+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11T21:32:48.451+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2024-09-11T21:32:48.521+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-11T21:32:48.522+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T21:32:48.522+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T21:32:48.549+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11T21:32:48.549+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 302 ms
+2024-09-11T21:32:48.580+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11T21:32:48.582+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-11T21:32:48.589+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11T21:32:48.591+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-09-11T21:32:48.603+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a861577
+2024-09-11T21:32:48.603+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-09-11T21:32:48.635+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11T21:32:48.641+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T21:32:48.699+05:30  WARN 7240 --- [SpringDataJPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11T21:32:48.805+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11T21:32:48.819+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-11T21:32:48.822+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Started SpringDataJpaApplication in 0.617 seconds (process running for 300.884)
+2024-09-11T21:32:48.823+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-11T21:37:56.583+05:30  INFO 7240 --- [SpringDataJPA] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-11T21:37:56.597+05:30  INFO 7240 --- [SpringDataJPA] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T21:37:56.597+05:30  INFO 7240 --- [SpringDataJPA] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-09-11T21:37:56.601+05:30  INFO 7240 --- [SpringDataJPA] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-09-11T21:37:56.681+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Starting SpringDataJpaApplication using Java 21.0.3 with PID 7240 (C:\2024Training\TRNG-00001988\091124\SpringDataJPA\target\classes started by JasdhirSingh in C:\2024Training\TRNG-00001988\091124\SpringDataJPA)
+2024-09-11T21:37:56.682+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T21:37:56.830+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11T21:37:56.841+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2024-09-11T21:37:56.911+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-11T21:37:56.913+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T21:37:56.913+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T21:37:56.938+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11T21:37:56.938+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 255 ms
+2024-09-11T21:37:56.970+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11T21:37:56.972+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-11T21:37:56.980+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11T21:37:56.980+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-09-11T21:37:56.992+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58d7282e
+2024-09-11T21:37:56.992+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-09-11T21:37:57.020+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-11T21:37:57.027+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T21:37:57.082+05:30  WARN 7240 --- [SpringDataJPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11T21:37:57.175+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11T21:37:57.202+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-11T21:37:57.204+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] com.revature.SpringDataJpaApplication    : Started SpringDataJpaApplication in 0.552 seconds (process running for 609.267)
+2024-09-11T21:37:57.206+05:30  INFO 7240 --- [SpringDataJPA] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-11T21:38:19.958+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11T21:38:19.958+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11T21:38:19.960+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-11T21:38:20.009+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-1] com.revature.aspect.LoggingAspect        : Before Execution of execution(List com.revature.controllers.EmployeeController.getEmployees())
+2024-09-11T21:38:20.358+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-2] com.revature.aspect.LoggingAspect        : Before Execution of execution(List com.revature.controllers.EmployeeController.getEmployees())
+2024-09-11T21:38:20.564+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-3] com.revature.aspect.LoggingAspect        : Before Execution of execution(List com.revature.controllers.EmployeeController.getEmployees())
+2024-09-11T21:38:20.771+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-4] com.revature.aspect.LoggingAspect        : Before Execution of execution(List com.revature.controllers.EmployeeController.getEmployees())
+2024-09-11T21:38:20.956+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-5] com.revature.aspect.LoggingAspect        : Before Execution of execution(List com.revature.controllers.EmployeeController.getEmployees())
+2024-09-11T21:38:21.130+05:30  INFO 7240 --- [SpringDataJPA] [http-nio-8081-exec-6] com.revature.aspect.LoggingAspect        : Before Execution of execution(List com.revature.controllers.EmployeeController.getEmployees())
