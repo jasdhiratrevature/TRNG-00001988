@@ -8,9 +8,8 @@ pipeline{
 		}
 		stage('Build'){
 			steps{
-				cd 092624/hello-there
-				 sh 'chmod a+x mvnw'
-      			  sh './mvnw clean package -DskipTests=true'
+				echo ' hi'	
+				cd '092624/hello-there'
 			}
 		}
 	}
