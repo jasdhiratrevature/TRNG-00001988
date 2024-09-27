@@ -9,7 +9,9 @@ pipeline{
 		stage('Build'){
 			steps{
 				echo ' hi'	
-				dir('092624/hello-there')
+				dir('092624/hello-there'){
+					echo 'inside dir'
+				}
 			}
 		}
 	}
