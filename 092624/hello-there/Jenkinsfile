@@ -15,12 +15,12 @@ pipeline{
 					// sh 'chmod a+x mvnw'
 					bat './mvnw clean package -DskipTests=true'
 				}
-				post {
-        				always {
-          						archiveArtifacts 'target/*.jar'
-        						}
-          			}
 			}
+			 {
+        always {
+          archiveArtifacts 'target/*.jar'
+        }
+          }
 		}
 	}
 }
