@@ -11,6 +11,8 @@ pipeline{
 				echo ' hi'	
 				dir('092624/hello-there'){
 					echo 'inside dir'
+						 sh 'chmod a+x mvnw'
+      			 	 sh './mvnw clean package -DskipTests=true'
 				}
 			}
 		}
