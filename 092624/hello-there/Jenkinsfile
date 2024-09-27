@@ -22,5 +22,10 @@ pipeline{
         }
           }
 		}
+		stage('DockerBuild') {
+      steps {
+        bat 'docker build -t jasdhirtech/hello-there:latest .'
+      }
+        }
 	}
 }
