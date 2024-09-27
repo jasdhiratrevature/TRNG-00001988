@@ -9,7 +9,7 @@ pipeline{
 		stage('Build'){
 			steps{
 				echo ' hi'	
-				cd '092624/hello-there'
+				dir('092624/hello-there')
 			}
 		}
 	}
