@@ -24,7 +24,8 @@ pipeline{
 		}
 		stage('DockerBuild') {
       steps {
-        bat 'docker build -t jasdhirtech/hello-there:latest .'
+		bat 'dir'
+        //bat 'docker build -t jasdhirtech/hello-there:latest .'
       }
         }
 	}
