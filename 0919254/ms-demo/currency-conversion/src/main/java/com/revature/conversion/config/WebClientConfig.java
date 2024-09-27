@@ -1,0 +1,26 @@
+package com.revature.conversion.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.loadbalancer.reactive.ReactorLoadBalancerExchangeFilterFunction;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.client.reactive.ReactorClientHttpConnector;
+import org.springframework.web.reactive.function.client.WebClient;
+
+import io.netty.resolver.DefaultAddressResolverGroup;
+import reactor.netty.http.client.HttpClient;
+
+@Configuration
+public class WebClientConfig {
+	@Autowired
+	private ReactorLoadBalancerExchangeFilterFunction lbFunction;
+	
+	@Bean
+	 public WebClient webClient() {
+		 return WebClient.builder().filter(lbFunction).build();
+	     //   return WebClient.builder().build();
+		//  var reactorHttpClient = HttpClient.create().resolver(DefaultAddressResolverGroup.INSTANCE);
+	        
+	      // return WebClient.builder().clientConnector(new ReactorClientHttpConnector(reactorHttpClient)).build();
+	    }
+}
