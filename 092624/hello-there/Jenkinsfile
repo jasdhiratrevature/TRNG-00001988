@@ -1,14 +1,16 @@
 pipeline{
 	agent any
 	stages{
-		stage('Stage 1'){
+		stage('Checkout'){
 			steps{
-				echo 'Stage 1 - Step  done'
+				 git branch: "main", url: 'https://github.com/jasdhiratrevature/TRNG-00001988.git'
 			}
 		}
-		stage('Stage 2'){
+		stage('Build'){
 			steps{
-				echo 'Stage 2 - Step  done'
+				cd 092624/hello-there
+				 sh 'chmod a+x mvnw'
+      			  sh './mvnw clean package -DskipTests=true'
 			}
 		}
 	}
